@@ -1,0 +1,24 @@
+The following prograo1 outline shows on ly function definjtions and variable declarations.
+int b, c;
+void f (void)
+{
+	int b, d;
+}
+void g(int a)
+{
+	int c;
+	{
+		int a, d;
+	}
+}
+int main(void)
+{
+	int c, d;
+}
+For each of the following scopes. list all vaiiable and parameter names visible in that scope.
+[f there's 1nore than one variable or paran1eLcr with the same name. indicate which one is
+visible.
+(a) The f function // b (local), d (local), c (global)
+(b) The g [unction // a (parameter), b (global), c (local)
+(c) The block jn which a a11d dare declared // a (local), d (local), c (local g), b (global)
+(ti) The main funcLion // c (local main), d (local main), b (global)

@@ -1,0 +1,17 @@
+Suppose that a program has only one function (main). I-low n1any different variables named
+i could this program contain?
+
+No limit exemple:
+int i;
+int main(void) {
+	int i;
+	{
+	  int i;
+	  {
+	  	int i;
+	  	{
+	  	   int i;
+		}
+	  }
+	}
+}
